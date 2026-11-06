@@ -1,0 +1,77 @@
+/* DoLean design tokens — Dark Studio / Swiss / selective glass / subtle skeuomorphism */
+:root {
+  color-scheme: dark;
+
+  /* Core palette */
+  --bg: #141821;
+  --bg-deep: #10131a;
+  --panel: #202735;
+  --panel-2: #283243;
+  --panel-3: #303b4e;
+  --panel-inset: #1a202b;
+  --accent: #8174f8;
+  --accent-strong: #9589ff;
+  --accent-pressed: #6f61e6;
+  --accent-soft: rgba(129, 116, 248, 0.14);
+  --accent-softer: rgba(129, 116, 248, 0.07);
+  --teal: #42cdbb;
+  --teal-soft: rgba(66, 205, 187, 0.13);
+  --amber: #f2ad63;
+  --amber-soft: rgba(242, 173, 99, 0.13);
+  --danger: #f07a7f;
+  --danger-soft: rgba(240, 122, 127, 0.12);
+  --text: #d9dfea;
+  --text-strong: #f2f5fa;
+  --muted: #929caf;
+  --muted-dim: #909aad;
+  --border: #343f50;
+  --border-soft: #2a3341;
+  --border-strong: #46536a;
+
+  /* Editor grid */
+  --grid-bar: rgba(217, 223, 234, 0.13);
+  --grid-beat: rgba(217, 223, 234, 0.06);
+  --grid-row: rgba(217, 223, 234, 0.045);
+  --grid-black-row: rgba(8, 11, 17, 0.26);
+
+  /* Typography */
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", "Cascadia Code", ui-monospace, SFMono-Regular, Consolas, monospace;
+
+  /* Shape and rhythm */
+  --radius-xs: 5px;
+  --radius-sm: 7px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  /* Depth */
+  --shadow-sm: 0 1px 2px rgba(3, 6, 12, 0.45);
+  --shadow-md: 0 10px 26px rgba(3, 6, 12, 0.34);
+  --shadow-lg: 0 24px 64px rgba(3, 6, 12, 0.48);
+  --shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.045);
+  --shadow-pressed: inset 0 2px 5px rgba(3, 6, 12, 0.45);
+
+  /* Selective glass */
+  --glass-bg: rgba(32, 39, 53, 0.78);
+  --glass-bg-strong: rgba(36, 44, 60, 0.9);
+  --glass-border: rgba(180, 196, 224, 0.16);
+  --glass-blur: blur(18px) saturate(1.15);
+
+  /* Layout */
+  --topbar-h: 54px;
+  --sidebar-w: 228px;
+  --sidebar-rail-w: 64px;
+  --keyboard-w: 66px;
+  --row-h: 22px;
+  --ease: cubic-bezier(0.2, 0.75, 0.25, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
